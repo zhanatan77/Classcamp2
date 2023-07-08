@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #100E14;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 20px 0;
+    background: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.header-left h1 {
+    font-weight: 900;
+}
+
+.header a {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.42px;
+    color: #000000;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+
+/*/hero*/
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 0;
+}
+
+
+.hero h1 {
+    font-weight: 400;
+    font-size: 63px;
+    color: #ffffff;
+}
+
+.hero h3 {
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 20px 0;
+}
+
+.hero button {
+    width: 251px;
+    height: 66px;
+    background: #ff4343;
+    border-radius: 8px;
+    letter-spacing: 0.42px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.hero button ion-icon {
+    margin-left: 10px;
+}
+
+.hero p {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+
+.hero-img {
+    position: relative;
+}
+
+.hero-tel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#shoot {
+    padding: 80px 0;
+}
+
+.shoot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shoot-img {
+    position: relative;
+}
+
+.shoot-tel {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.shoot-title h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.shoot-title p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 1.92px;
+    color: rgba(255, 255, 255, 0.5)
+}
+/*lime*/
+
+.lime-title h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    /*padding-bottom: 20px;*/
+}
+
+.lime-title p {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.lime-title p span {
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.lime {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*logo*/
+
+.logo {
+    /*padding: 30px 0 0 30px;*/
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    margin: 0 -90px;
+}
+
+.logo-title p {
+    padding: 20px 0;
+}
+
+.logo-title h1 {
+    color: #FFFFFF;
+    font-size: 54px;
+}
+
+.logo-title p {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 27px;
+    margin-left: 10px;
+}
+
+.img-title {
+    display: flex;
+    margin-left: 90px;
+
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+
+
+
+#tik {
+    padding: 20%;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+
+
+}
+
+.tik {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+/*craft*/
+#craft {
+    padding: 80px 0;
+}
+.craft h1 {
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 2.56px;
+    color: #FFFFFF
+}
+.liner {
+    width: 120px;
+    height: 5px;
+    background: #FF4343;
+    margin: 50px 0;
+}
+.craft p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.craft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.block-title h1 {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.block-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.block {
+    position: relative;
+}
+.block-title {
+   background: rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+}
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+#users {
+    padding: 80px 0;
+}
+.users p {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #8BFFB0;
+}
+.users h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 1.92px;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+.users h3 {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 39px;;
+    letter-spacing: 0.42px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.users{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.users img {
+    animation:user 2s infinite ease-in-out;
+}
+
+
+@keyframes user {
+  0% {
+      opacity: 0.3;
+  }
+   50% {
+       opacity: 1;
+   }
+    100% {
+        opacity: 0;
+    }
+}
